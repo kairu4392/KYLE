@@ -43,49 +43,30 @@
           <div class = "lesson-icon">
             <img src = "https://prog-8.com/images/html/advanced/html.png">
             <p> HTMLとCSS </ p>
-          </ div>
-          <pclass = "text-contents">メソッドリストの作成に使用する言語です。HTMLとCSSを作成して、ゴーできます。</ p>
-        </ div>
-        <div class = "lesson">
-          <div class = "lesson-icon">
-            <img src = "https://prog-8.com/images/html/advanced/jQuery.png">
-            <p> jQuery </ p>
-          </ div>
-          <p class = "text-contents">記憶な備を手軽に実装JavaScriptなし、Ajax（エイジャックス）をなければてし、ファイルをダリと色々なでできます。</ p>
-        </ div>
-        <div class = "lesson">
-          <div class = "lesson-icon">
-            <img src = "https://prog-8.com/images/html/advanced/ruby.png">
-            <p>ルビー</ p>
-          </ div>
-          <p class = "text-contents">オープンソースのフリーなプログラミング言語で、買った分類生産性をダウンロードしてください。 </ p>
-        </ div>
-        <div class = "lesson">
-          <div class = "lesson-icon">
-            <img src = "https://prog-8.com/images/html/advanced/php.png">
-            <p> PHP </ p>
-          </ div>
-          <pclass = "text-contents"> HTMLだけにするプログラムの内容をしたことはできません。PHPはHTMLにあり、プログラムを埋め込みます。</ p>
-        </ div>
-      </ div>
-      <div class = "clear"> </ div>
-    </ div>
-  </ div>
-  <div class = "message-wrapper">
-    <div class = "container">
-      <div class = "heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学みみませんか？</ h2>
-        <h3>コーディングを学び、創造性を身に付けましょう！</ h3>
-      </ div>
-      <spanclass = "btnmessage">さっそく開発する</ span>
-    </ div>
-  </ div>
-  <フッター>
-    <div class = "container">
-      <img src = "https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>コーディングを学び、創造性を学ぶ。</ p>
-    </ div>
-  </フッター>
-</ body>
-</ html>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Maps API サンプル</title>
+  </head>
+  <body>
+    <p>瑞穂運動場です。</p>
+
+    <div id="map" style="width:620px; height:400px"></div>
+
+    <script type="text/javascript">
+    function initMap() {
+      var opts = {
+        zoom: 15,
+        center: new google.maps.LatLng(35.1239654, 136.9417741)
+      };
+      var map = new google.maps.Map(document.getElementById("map"), opts);
+    }
+    </script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW0RYvshZvcVsgzsHUz4EOSPYnUvj5Yis&callback=initMap">
+    </script>
+  </body>
+</html>
  
